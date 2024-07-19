@@ -6,10 +6,14 @@ import Link from "next/link";
 function Topbar() {
   return (
     <nav className='topbar'>
-      <Link href='/' className='flex items-center gap-4'>
-        <Image src='/logo.svg' alt='logo' width={50} height={50} />
-        <p className='text-heading3-bold text-light-1 max-xs:hidden'>Peerup</p>
-      </Link>
+      <Link href="/" className="flex items-center gap-4">
+      <Image src='/logo.svg' alt='logo' width={50} height={50} />
+      <h1 className="text-[1.5rem] font-extrabold text-purple-300">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+          Peerup
+        </span>
+      </h1>
+    </Link>
 
       <div className='flex items-center gap-1'>
         <div className='block md:hidden'>

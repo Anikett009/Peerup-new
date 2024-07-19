@@ -11,12 +11,12 @@ export const sidebarLinks = [
   },
   {
     imgURL: "/assets/edit.svg",
-    route: "/activity",
+    route: "/create-thread",
     label: "Real-Time Editing",
   },
   {
     imgURL: "/assets/create.svg",
-    route: "/create-thread",
+    route: "/todo-list",
     label: "To-Do List",
   },
   {
