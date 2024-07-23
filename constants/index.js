@@ -25,6 +25,11 @@ export const sidebarLinks = [
     label: "Communities",
   },
   {
+    imgURL:"/assets/docs.svg",
+    route: "/doc-upload",
+    label: "Document Vault",
+  },
+  {
     imgURL: "/assets/user.svg",
     route: "/profile",
     label: "Profile",
